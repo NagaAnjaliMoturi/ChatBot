@@ -21,8 +21,11 @@ Make the chatbot accessible to others through a simple web link.
 
 **Streamlit App Development:** 
 The code uses Streamlit to create a simple chat interface.
+
 The chatbot’s chat history is managed using Streamlit’s session state to keep track of the conversation across interactions.
+
 User Input: The app takes text input from users (queries or commands), which is sent to the Gemini Pro API.
+
 Gemini Pro Response: The model processes the input and generates an appropriate response, which is then displayed in the chat interface.
 
 **Code Breakdown:**
