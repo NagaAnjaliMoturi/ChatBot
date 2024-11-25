@@ -26,22 +26,15 @@ Make the chatbot accessible to others through a simple web link.
 - Gemini Pro Response: The model processes the input and generates an appropriate response, which is then displayed in the chat interface.
 
 **Code Breakdown:**
-
-Loading Environment Variables: The API key is loaded securely using python-dotenv.
-
-Chat History: The app stores user inputs and assistant responses in the session state to maintain chat continuity.
-
-Displaying Responses: The conversation is displayed in a conversational format using Streamlit’s chat message components.
-
-Deployment: After testing the app locally, it’s deployed on Streamlit Cloud for public access.
+- Loading Environment Variables: The API key is loaded securely using python-dotenv.
+- Chat History: The app stores user inputs and assistant responses in the session state to maintain chat continuity.
+- Displaying Responses: The conversation is displayed in a conversational format using Streamlit’s chat message components.
+- Deployment: After testing the app locally, it’s deployed on Streamlit Cloud for public access.
 
 **Key Libraries and Components:**
-
-os and dotenv are used for environment variable management.
-
-streamlit is used to build the web app.
-
-google-generative-ai interacts with the Gemini Pro API to generate responses.
+- os and dotenv are used for environment variable management.
+- streamlit is used to build the web app.
+- google-generative-ai interacts with the Gemini Pro API to generate responses.
 
 ## Conclusion:
 This project demonstrates how to create a simple chatbot using Google's Gemini Pro API and Streamlit. We built an interactive web app where users can ask questions, and the chatbot responds intelligently. The app was then deployed on Streamlit Cloud for easy sharing. This project showcases the simplicity of integrating AI models into web apps and making them publicly accessible.
