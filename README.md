@@ -5,30 +5,16 @@ Demonstrate how to integrate an AI language model (Gemini Pro) into a user-frien
 Show how to deploy the chatbot as a public web app using Streamlit Cloud.
 Make the chatbot accessible to others through a simple web link.
 ## Technologies Used:
-Google Gemini Pro API:
-
-Provides access to the Gemini Pro language model, which powers the chatbot with capabilities like text generation, answering questions, and code generation.
-Streamlit:
-
-A Python framework used to build the interactive web application. Streamlit makes it easy to deploy machine learning models and AI-driven applications with a minimal amount of code.
-Python:
-
-The core programming language used to write the code. Python is widely used in data science, machine learning, and AI development.
-python-dotenv:
-
-A library used to load environment variables from a .env file, allowing secure storage and retrieval of sensitive data like API keys.
-google-generative-ai:
-
-A Python client library to interact with Google’s Gemini Pro API, which provides generative AI capabilities (text generation, conversational models).
-Streamlit Cloud:
-
-A platform to host and share Streamlit apps as public web applications. It allows easy deployment with no infrastructure setup needed.
+**Google Gemini Pro API:** Provides access to the Gemini Pro language model, which powers the chatbot with capabilities like text generation, answering questions, and code generation.
+**Streamlit**:A Python framework used to build the interactive web application. Streamlit makes it easy to deploy machine learning models and AI-driven applications with a minimal amount of code.
+**Python:**The core programming language used to write the code. Python is widely used in data science, machine learning, and AI development.
+**python-dotenv:** A library used to load environment variables from a .env file, allowing secure storage and retrieval of sensitive data like API keys.
+**google-generative-ai:**A Python client library to interact with Google’s Gemini Pro API, which provides generative AI capabilities (text generation, conversational models).
+**Streamlit Cloud:**A platform to host and share Streamlit apps as public web applications. It allows easy deployment with no infrastructure setup needed.
 ## Explanation:
 API Key and Setup:
-
 First, an API key is obtained from Google AI Studio. This key is stored securely in a .env file to authenticate requests to the Gemini Pro API.
 Streamlit App Development:
-
 The code uses Streamlit to create a simple chat interface.
 The chatbot’s chat history is managed using Streamlit’s session state to keep track of the conversation across interactions.
 User Input: The app takes text input from users (queries or commands), which is sent to the Gemini Pro API.
